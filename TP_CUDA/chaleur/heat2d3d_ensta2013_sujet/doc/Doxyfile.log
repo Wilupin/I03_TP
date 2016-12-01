@@ -1,0 +1,127 @@
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:68: warning: Member victorate(TYPE, VARIABLE, ITERATOR) (define) of file GetPot.h is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:64: warning: Member STRING_VECTOR (typedef) of file GetPot.h is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/heat2d_kernel_gpu_shmem1.cu:16: warning: Member BLOCK_DIMX (define) of file heat2d_kernel_gpu_shmem1.cu is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/heat2d_kernel_gpu_shmem1.cu:17: warning: Member BLOCK_DIMY (define) of file heat2d_kernel_gpu_shmem1.cu is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/heat2d_kernel_gpu_shmem1.cu:18: warning: Member BLOCK_INNER_DIMX (define) of file heat2d_kernel_gpu_shmem1.cu is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/heat2d_kernel_gpu_shmem1.cu:19: warning: Member BLOCK_INNER_DIMY (define) of file heat2d_kernel_gpu_shmem1.cu is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/heat2d_kernel_gpu_shmem1.cu:126: warning: Member BLOCK_DIMX2 (define) of file heat2d_kernel_gpu_shmem1.cu is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/heat2d_kernel_gpu_shmem1.cu:127: warning: Member BLOCK_DIMY2 (define) of file heat2d_kernel_gpu_shmem1.cu is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/heat2d_kernel_gpu_shmem1.cu:128: warning: Member BLOCK_INNER_DIMX2 (define) of file heat2d_kernel_gpu_shmem1.cu is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/heat2d_kernel_gpu_shmem1.cu:129: warning: Member BLOCK_INNER_DIMY2 (define) of file heat2d_kernel_gpu_shmem1.cu is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/heat2d_kernel_gpu_shmem2.cu:16: warning: Member ROWS_BLOCK_X (define) of file heat2d_kernel_gpu_shmem2.cu is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/heat2d_kernel_gpu_shmem2.cu:17: warning: Member ROWS_BLOCK_Y (define) of file heat2d_kernel_gpu_shmem2.cu is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/heat2d_kernel_gpu_shmem2.cu:18: warning: Member ROWS_NBLOCKS (define) of file heat2d_kernel_gpu_shmem2.cu is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/heat2d_kernel_gpu_shmem2.cu:21: warning: Member COLS_BLOCK_X (define) of file heat2d_kernel_gpu_shmem2.cu is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/heat2d_kernel_gpu_shmem2.cu:22: warning: Member COLS_BLOCK_Y (define) of file heat2d_kernel_gpu_shmem2.cu is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/heat2d_kernel_gpu_shmem2.cu:23: warning: Member COLS_NBLOCKS (define) of file heat2d_kernel_gpu_shmem2.cu is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/heat2d_solver_gpu_naive.cu:51: warning: Member numberOfBlocks(uint size, uint threadsPerBlock) (function) of file heat2d_solver_gpu_naive.cu is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/heat2d_solver_gpu_naive.cu:61: warning: Member main(int argc, char **argv) (function) of file heat2d_solver_gpu_naive.cu is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/heat2d_solver_gpu_shmem1.cu:51: warning: Member numberOfBlocks(uint size, uint threadsPerBlock) (function) of file heat2d_solver_gpu_shmem1.cu is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/heat2d_solver_gpu_shmem1.cu:61: warning: Member main(int argc, char **argv) (function) of file heat2d_solver_gpu_shmem1.cu is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/heat2d_solver_gpu_shmem2.cu:50: warning: Member numberOfBlocks(uint size, uint threadsPerBlock) (function) of file heat2d_solver_gpu_shmem2.cu is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/heat2d_solver_gpu_shmem2.cu:60: warning: Member main(int argc, char **argv) (function) of file heat2d_solver_gpu_shmem2.cu is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/heat3d_kernel_gpu_naive.cu:22: warning: Member heat3d_ftcs_naive_order2_kernel(real_t *A, real_t *B, unsigned int NX, unsigned int NY, unsigned int NZ, real_t R, real_t R3) (function) of file heat3d_kernel_gpu_naive.cu is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/heat3d_kernel_gpu_naive.cu:56: warning: Member heat3d_ftcs_naive_order4_kernel(real_t *A, real_t *B, unsigned int NX, unsigned int NY, unsigned int NZ, real_t S, real_t S3) (function) of file heat3d_kernel_gpu_naive.cu is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/heat3d_kernel_gpu_shmem1.cu:13: warning: Member BLOCK_DIMX (define) of file heat3d_kernel_gpu_shmem1.cu is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/heat3d_kernel_gpu_shmem1.cu:14: warning: Member BLOCK_DIMY (define) of file heat3d_kernel_gpu_shmem1.cu is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/heat3d_kernel_gpu_shmem1.cu:15: warning: Member BLOCK_INNER_DIMX (define) of file heat3d_kernel_gpu_shmem1.cu is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/heat3d_kernel_gpu_shmem1.cu:16: warning: Member BLOCK_INNER_DIMY (define) of file heat3d_kernel_gpu_shmem1.cu is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/heat3d_kernel_gpu_shmem1.cu:24: warning: Member heat3d_ftcs_sharedmem_order2_kernel(real_t *A, real_t *B, int pitch, int imax, int jmax, int kmax) (function) of file heat3d_kernel_gpu_shmem1.cu is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/heat3d_solver_cpu.cpp:38: warning: Member main(int argc, char **argv) (function) of file heat3d_solver_cpu.cpp is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/heat3d_solver_gpu_naive.cu:51: warning: Member numberOfBlocks(uint size, uint threadsPerBlock) (function) of file heat3d_solver_gpu_naive.cu is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/heat3d_solver_gpu_naive.cu:61: warning: Member main(int argc, char **argv) (function) of file heat3d_solver_gpu_naive.cu is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/heat3d_solver_gpu_shmem1.cu:51: warning: Member numberOfBlocks(uint size, uint threadsPerBlock) (function) of file heat3d_solver_gpu_shmem1.cu is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/heat3d_solver_gpu_shmem1.cu:62: warning: Member main(int argc, char **argv) (function) of file heat3d_solver_gpu_shmem1.cu is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/heat_solver_cpu.cpp:31: warning: Member main(int argc, char **argv) (function) of file heat_solver_cpu.cpp is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/output.h:29: warning: Member save_vtk(real_t *data, const char *prefix, int time) (function) of file output.h is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/param.cpp:98: warning: Member LY (variable) of file param.cpp is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/param.cpp:99: warning: Member LZ (variable) of file param.cpp is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/param.cpp:102: warning: Member NY (variable) of file param.cpp is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/param.cpp:103: warning: Member NZ (variable) of file param.cpp is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/param.cpp:117: warning: Member o2 (variable) of file param.cpp is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/param.cpp:118: warning: Member o4 (variable) of file param.cpp is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/param.cpp:124: warning: Member SAVE_PGM (variable) of file param.cpp is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/param.cpp:125: warning: Member SAVE_VTK (variable) of file param.cpp is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/param.h:28: warning: Member M_PI (define) of file param.h is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/param.h:19: warning: Member real_t (typedef) of file param.h is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/param.h:43: warning: Member o2 (variable) of file param.h is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/param.h:59: warning: Member o4 (variable) of file param.h is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/param.h:53: warning: Member S (variable) of class FourthOrderParam is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/param.h:54: warning: Member S2 (variable) of class FourthOrderParam is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/param.h:55: warning: Member S3 (variable) of class FourthOrderParam is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:81: warning: Member GetPot(const GetPot &) (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:83: warning: Member GetPot(const int argc_, char **argv_, const char *FieldSeparator=0x0) (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:86: warning: Member GetPot(const char *FileName, const char *CommentStart=0x0, const char *CommentEnd=0x0, const char *FieldSeparator=0x0) (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:88: warning: Member operator=(const GetPot &) (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:92: warning: Member absorb(const GetPot &That) (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:94: warning: Member clear_requests() (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:95: warning: Member disable_request_recording() (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:96: warning: Member enable_request_recording() (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:99: warning: Member operator[](unsigned Idx) const  (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:100: warning: Member get(unsigned Idx, int Default) const  (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:101: warning: Member get(unsigned Idx, const double &Default) const  (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:102: warning: Member get(unsigned Idx, const char *Default) const  (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:103: warning: Member size() const  (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:106: warning: Member options_contain(const char *FlagList) const  (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:107: warning: Member argument_contains(unsigned Idx, const char *FlagList) const  (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:111: warning: Member operator()(const char *VarName, int Default) const  (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:112: warning: Member operator()(const char *VarName, const double &Default) const  (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:113: warning: Member operator()(const char *VarName, const char *Default) const  (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:115: warning: Member operator()(const char *VarName, int Default, unsigned Idx) const  (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:116: warning: Member operator()(const char *VarName, const double &Default, unsigned Idx) const  (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:117: warning: Member operator()(const char *VarName, const char *Default, unsigned Idx) const  (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:122: warning: Member set(const char *VarName, const char *Value, const bool Requested=true) (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:123: warning: Member set(const char *VarName, const double &Value, const bool Requested=true) (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:124: warning: Member set(const char *VarName, const int Value, const bool Requested=true) (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:126: warning: Member vector_variable_size(const char *VarName) const  (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:127: warning: Member get_variable_names() const  (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:128: warning: Member get_section_names() const  (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:132: warning: Member set_prefix(const char *Prefix) (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:133: warning: Member search_failed() const  (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:136: warning: Member disable_loop() (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:137: warning: Member enable_loop() (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:140: warning: Member reset_cursor() (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:141: warning: Member init_multiple_occurrence() (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:144: warning: Member search(const char *option) (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:145: warning: Member search(unsigned No, const char *P,...) (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:147: warning: Member next(int Default) (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:148: warning: Member next(const double &Default) (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:149: warning: Member next(const char *Default) (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:151: warning: Member follow(int Default, const char *Option) (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:152: warning: Member follow(const double &Default, const char *Option) (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:153: warning: Member follow(const char *Default, const char *Option) (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:155: warning: Member follow(int Default, unsigned No, const char *Option,...) (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:156: warning: Member follow(const double &Default, unsigned No, const char *Option,...) (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:157: warning: Member follow(const char *Default, unsigned No, const char *Option,...) (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:159: warning: Member nominus_followers(const char *Option) (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:160: warning: Member nominus_followers(unsigned No,...) (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:163: warning: Member direct_follow(int Default, const char *Option) (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:164: warning: Member direct_follow(const double &Default, const char *Option) (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:165: warning: Member direct_follow(const char *Default, const char *Option) (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:167: warning: Member string_tails(const char *StartString) (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:168: warning: Member int_tails(const char *StartString, const int Default=1) (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:169: warning: Member double_tails(const char *StartString, const double Default=1.0) (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:172: warning: Member nominus_vector() const  (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:173: warning: Member nominus_size() const  (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:174: warning: Member next_nominus() (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:177: warning: Member unidentified_arguments(unsigned Number, const char *Known,...) const  (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:178: warning: Member unidentified_arguments(const STRING_VECTOR &Knowns) const  (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:179: warning: Member unidentified_arguments() const  (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:181: warning: Member unidentified_options(unsigned Number, const char *Known,...) const  (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:182: warning: Member unidentified_options(const STRING_VECTOR &Knowns) const  (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:183: warning: Member unidentified_options() const  (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:186: warning: Member unidentified_flags(const char *Known, int ArgumentNumber) const  (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:188: warning: Member unidentified_variables(unsigned Number, const char *Known,...) const  (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:189: warning: Member unidentified_variables(const STRING_VECTOR &Knowns) const  (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:190: warning: Member unidentified_variables() const  (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:192: warning: Member unidentified_sections(unsigned Number, const char *Known,...) const  (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:193: warning: Member unidentified_sections(const STRING_VECTOR &Knowns) const  (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:194: warning: Member unidentified_sections() const  (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:196: warning: Member unidentified_nominuses(unsigned Number, const char *Known,...) const  (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:197: warning: Member unidentified_nominuses(const STRING_VECTOR &Knowns) const  (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:198: warning: Member unidentified_nominuses() const  (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/GetPot.h:201: warning: Member print() const  (function) of class GetPot is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/param.h:36: warning: Member R (variable) of class SecondOrderParam is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/param.h:37: warning: Member R2 (variable) of class SecondOrderParam is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/param.h:38: warning: Member R2b (variable) of class SecondOrderParam is not documented.
+/home/pkestene/etudes/GPU/ensta/TP/heat/cuda/heat2d3d_chamonix2011/param.h:39: warning: Member R3 (variable) of class SecondOrderParam is not documented.

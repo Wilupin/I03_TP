@@ -1,0 +1,11 @@
+L'exemple est adapt\'e de
+http://www.speedup.ch/workshops/w38_2009/tutorial.html
+
+Resultats sur la platforme
+GPU : GeForce GTX 560 Ti
+CPU : i7-2600 CPU @ 3.40GHz
+cuda toolkit 4.0
+
+OUR CPU CODE:  4194304 elements,   2.990818 ms per iteration,  2.805 GFLOP/s,  16.829 GB/s
+OUR GPU CODE:  4194304 elements,   0.435936 ms per iteration, 19.243 GFLOP/s, 115.457 GB/s
+CUBLAS      :  4194304 elements,   0.457216 ms per iteration, 18.347 GFLOP/s, 110.083 GB/s
