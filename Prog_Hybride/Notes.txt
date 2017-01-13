@@ -1,0 +1,19 @@
+// Notes de cours I03
+
+Par défault dans les déclarations openmp les variables sont déclarées commme publiques.
+On peut déclarer tout type de variable comme privée (int, double, vector, ...).
+
+Pour déclarer une variable privée dans chaque thread on peut aussi écrire :
+> #pragma omp parallel
+>         <type> ma_variable;
+> #pragma omp for private(i)
+>         for(i=0 ...)
+>             utilisation de ma_variable;
+
+Pour lancer un programme sur n threads :
+Dans le terminal au lancement : > OMP_NUM_THREAD = n ./Mon_Executable
+Ou alors dans le code         : > omp_set_num_threads(n)
+
+Pour connaitre le nombre n de threads actuels :
+> n = omp_get_num_threads()
+
