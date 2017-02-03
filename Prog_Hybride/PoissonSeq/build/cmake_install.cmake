@@ -1,4 +1,4 @@
-# Install script for directory: /home/f/facchinetti/Documents/CoursI03/Prog_Hybride/PoissonSeq
+# Install script for directory: /auto/f/facchinetti/Documents/CoursI03/I03_CoursTP/Prog_Hybride/PoissonSeq
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./PoissonSeq"
          RPATH "")
   ENDIF()
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE EXECUTABLE FILES "/home/f/facchinetti/Documents/CoursI03/Prog_Hybride/PoissonSeq/build/PoissonSeq")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE EXECUTABLE FILES "/auto/f/facchinetti/Documents/CoursI03/I03_CoursTP/Prog_Hybride/PoissonSeq/build/PoissonSeq")
   IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./PoissonSeq" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./PoissonSeq")
     FILE(RPATH_REMOVE
@@ -56,7 +56,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/home/f/facchinetti/Documents/CoursI03/Prog_Hybride/PoissonSeq/build/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/auto/f/facchinetti/Documents/CoursI03/I03_CoursTP/Prog_Hybride/PoissonSeq/build/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/home/f/facchinetti/Documents/CoursI03/Prog_Hybride/PoissonSeq/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/auto/f/facchinetti/Documents/CoursI03/I03_CoursTP/Prog_Hybride/PoissonSeq/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)

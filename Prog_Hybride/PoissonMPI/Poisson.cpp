@@ -89,7 +89,7 @@ bool Poisson::solve(unsigned int nSteps)
     fDebug.open(s.str().c_str());
   }
 
-  double du_max = 0.0, du;
+  double du_max, du_max_loc, du;
   double dx2 = m_dx[0]*m_dx[0] + m_dx[1]*m_dx[1] + m_dx[2]*m_dx[2];
   double dt = 0.5*(dx2 + 1e-12);
   double lambda = 0.25*dt/(dx2 + 1e-12);
@@ -104,24 +104,29 @@ bool Poisson::solve(unsigned int nSteps)
   for (iStep=0; iStep < nSteps; iStep++) {
 
     du_max = 0.0;
+    du_max_loc = 0.0;
 
     for (i = imin; i < imax; i++)
       for (j = jmin; j < jmax; j++)
         for (k = kmin; k < kmax; k++) {
-          du = 6 * m_u(i, j, k) 
+          du = 6 * m_u(i, j, k)
               - m_u(i + di, j, k) - m_u(i - di, j, k)
-              - m_u(i, j + dj, k) - m_u(i, j - dj, k) 
+              - m_u(i, j + dj, k) - m_u(i, j - dj, k)
               - m_u(i, j, k + dk) - m_u(i, j, k - dk);
           du *= lambda;
           m_v(i, j, k) = m_u(i, j, k) - du;
-          du_max += du > 0 ? du : -du;
+          du_max_loc += du > 0 ? du : -du;
         }
 
     T[1].stop();
     T[2].start();
 
-    // modifier ici
-    
+
+    // Reduction de la variable du_max sur le noeud 0
+    MPI_Reduce(&du_max_loc, &du_max, 1, MPI_DOUBLE, MPI_SUM, 0, m_P->comm());
+
+
+    // Syncronisation de la solution
     m_v.synchronize(*m_P);
 
     T[2].stop();
@@ -130,7 +135,11 @@ bool Poisson::solve(unsigned int nSteps)
     m_u.swap(m_v);
     m_t += dt;
     kStep++;
+
+    //std::cout << " Mon rang est : " << m_P->rank() << std::endl;
+
     if (m_P->rank() == 0)
+      //std::cout << "Ici" << std::endl;
       std::cerr << "solve    " << codeName
         << " iteration " << kStep
               << " variation " << du_max
